@@ -17,20 +17,20 @@ public class DownloaderTask extends AsyncTask<String,Integer,Integer> {
 
     public static final int TYPE_PAUSED = 2;
 
-    public static final int TYPE_CANCLED = 3;
-
-    private DownloaderListener listener;
-
-    private
-
-    private boolean isCancled = false;
 
     private boolean isPaused = false;
 
     private int lastProgress;
 
     public DownloaderTask(DownloaderListener listener){
-        this.listener = listener;
+            this.listener = listener;
+    public static final int TYPE_CANCLED = 3;
+
+    private DownloaderListener listener;
+
+
+
+    private boolean isCancled = false;
     }
 
     @Override
