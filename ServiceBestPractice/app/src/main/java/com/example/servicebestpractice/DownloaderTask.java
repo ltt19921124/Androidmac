@@ -30,7 +30,7 @@ public class DownloaderTask extends AsyncTask<String,Integer,Integer> {
 
 
 
-    private boolean isCancled = false;
+    private boolean isCancled = false;；
     }
 
     @Override
