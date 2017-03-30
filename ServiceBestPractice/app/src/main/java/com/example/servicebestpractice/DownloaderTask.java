@@ -21,6 +21,8 @@ public class DownloaderTask extends AsyncTask<String,Integer,Integer> {
 
     private DownloaderListener listener;
 
+    private
+
     private boolean isCancled = false;
 
     private boolean isPaused = false;
