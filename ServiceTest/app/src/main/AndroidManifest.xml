@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.servicebestpractice">
+    package="com.example.servicetest">
 
     <application
         android:allowBackup="true"
@@ -18,9 +18,10 @@
         </activity>
 
         <service
-            android:name=".DownloadService"
+            android:name=".MyService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true">
+        </service>
     </application>
 
 </manifest>
