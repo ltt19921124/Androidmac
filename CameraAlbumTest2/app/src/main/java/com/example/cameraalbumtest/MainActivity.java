@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (IOException e){
                     e.printStackTrace();
                 }
-                if (Build.VERSION.SDK_INT >= 25){
+                if (Build.VERSION.SDK_INT >= 24){
                     imageUri = FileProvider.getUriForFile(MainActivity.this,
                             "com.example.cameraalbumtest2.fileprovider",outputImage);
                 } else {
@@ -154,12 +154,18 @@ public class MainActivity extends AppCompatActivity {
             }
         } else if ("content".equalsIgnoreCase(uri.getScheme())) {
             imagePath  =getImagePath(uri,null);
+        } else if ("file".equalsIgnoreCase(uri.getScheme())) {
+            imagePath = uri.getPath();
         }
+        displayImage(imagePath);
     }
+
     private void handleImageBeforeKitKat(Intent data) {
         Uri uri = data.getData();
         String imagePath = getImagePath(uri,null);
+        displayImage(imagePath);
     }
+
     private String getImagePath(Uri uri, String selection) {
         String path = null;
         Cursor cursor = getContentResolver().query(uri,null,selection,null,null);
