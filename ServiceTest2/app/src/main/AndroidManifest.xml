@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.androidthreadtest3">
+    package="com.example.servicetest">
 
     <application
         android:allowBackup="true"
@@ -20,7 +20,8 @@
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true">
+        </service>
     </application>
 
 </manifest>

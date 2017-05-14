@@ -37,6 +37,8 @@ public class MyService extends Service {
 
     @Override
     public void onCreate() {
+
+
         super.onCreate();
         Log.d("MyService","onCreate executed");
         Intent intent = new Intent(this,MainActivity.class);
