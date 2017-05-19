@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fast_forward_64dp.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fast_forward_64dp.png"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_pause_64dp.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pause_64dp.png"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_minimize_24dp.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_minimize_24dp.png"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_play_arrow_24dp.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_play_arrow_24dp.png"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_pause_24dp.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pause_24dp.png"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_play_arrow_64dp.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_play_arrow_64dp.png"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_fast_rewind_64dp.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fast_rewind_64dp.png"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_info_24dp.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_info_24dp.png"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_picture_in_picture_alt.png",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_picture_in_picture_alt.png"
+    }
+]

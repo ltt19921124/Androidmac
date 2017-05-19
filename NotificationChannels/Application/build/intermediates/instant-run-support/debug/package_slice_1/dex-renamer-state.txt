@@ -1,0 +1,4 @@
+#Fri May 19 16:19:54 CST 2017
+base.0=I\:\\github\\Androidmac\\NotificationChannels\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+renamed.0=classes.dex
+file.0=I\:\\github\\Androidmac\\NotificationChannels\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex

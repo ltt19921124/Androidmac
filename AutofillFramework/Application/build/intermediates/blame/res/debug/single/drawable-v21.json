@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "I:\\github\\Androidmac\\AutofillFramework\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Tian Lu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\315054bd1603e809aa7f1145845e1b86\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\AutofillFramework\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Tian Lu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\315054bd1603e809aa7f1145845e1b86\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\AutofillFramework\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Tian Lu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\315054bd1603e809aa7f1145845e1b86\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\AutofillFramework\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Tian Lu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\315054bd1603e809aa7f1145845e1b86\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    }
+]

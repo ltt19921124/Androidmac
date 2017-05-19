@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Tian Lu\\.gradle\\caches\\transforms-1\\files-1.1\\rules-0.5.aar\\eb4bd4c48f61e2ce781ab8a6a2632fac\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fast_rewind_64dp.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fast_rewind_64dp.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_play_arrow_64dp.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_play_arrow_64dp.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_pause_24dp.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_pause_24dp.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_pause_64dp.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_pause_64dp.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_minimize_24dp.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_minimize_24dp.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_info_24dp.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_info_24dp.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_play_arrow_24dp.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_play_arrow_24dp.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_picture_in_picture_alt.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_picture_in_picture_alt.xml"
+    },
+    {
+        "merged": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_fast_forward_64dp.xml",
+        "source": "I:\\github\\Androidmac\\PictureInPicture\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fast_forward_64dp.xml"
+    }
+]

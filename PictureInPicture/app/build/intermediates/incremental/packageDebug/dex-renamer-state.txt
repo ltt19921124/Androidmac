@@ -1,0 +1,7 @@
+#Fri May 19 14:44:09 CST 2017
+base.0=I\:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=I\:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10\\classes.dex
+base.1=I\:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+file.0=I\:\\github\\Androidmac\\PictureInPicture\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11\\classes.dex
