@@ -1,0 +1,4 @@
+#Sun May 21 02:31:45 CST 2017
+base.0=I\:\\github\\Androidmac\\ActionBarCompat-ShareActionProvider\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=I\:\\github\\Androidmac\\ActionBarCompat-ShareActionProvider\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

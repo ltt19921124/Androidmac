@@ -1,6 +1,0 @@
-COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
-FILE_PATH=I:\github\Androidmac\PictureInPicture\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar
-FILE_HASH=bde631c3a2f96aa9a2c4ce15d513a3a479acb0e2
-DX_VERSION=1.13
-JUMBO_MODE=true
-OPTIMIZE=true
