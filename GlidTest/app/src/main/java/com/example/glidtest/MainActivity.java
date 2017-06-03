@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,10 +21,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loadImage(View view) {
-        String url = "http://cn.bing.com/az/hprichbg/rb/Dongdaemun_ZH-CN10736487148_1920x1080.jpg";
+        String url = "http://p1.pstatp.com/large/166200019850062839d3";
         Glide.with(this)
                 .load(url)
+                .asGif()
                 .placeholder(R.drawable.loading)
+                .error(R.drawable.loading)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .override(100,100)
                 .into(imageView);
 
     }

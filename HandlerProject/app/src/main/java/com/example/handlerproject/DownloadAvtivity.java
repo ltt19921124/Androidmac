@@ -3,9 +3,11 @@ package com.example.handlerproject;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.os.Message;
 import android.support.annotation.Nullable;
 import android.view.View;
+import android.widget.ProgressBar;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -21,10 +23,17 @@ import java.net.URLConnection;
  */
 
 public class DownloadAvtivity extends Activity{
+
+    public static final int DOWNLOAD_MESSAGE_CODE = 100001;
+    public static final int DOWNLOAD_MESSAGE_FAIL_CODE = 100002;
+    public static final String APPURL = "https://qd.myapp.com/myapp/qqteam/AndroidQQ/mobileqq_android.apk";
+    Handler mhandler = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_download);
+
+        final ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
         /**
          * 主线程
          * 点击按钮
@@ -37,9 +46,29 @@ public class DownloadAvtivity extends Activity{
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                download("https://qd.myapp.com/myapp/qqteam/AndroidQQ/mobileqq_android.apk");
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        download(APPURL);
+                    }
+                }).start();
             }
         });
+
+        mhandler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                super.handleMessage(msg);
+
+                switch (msg.what) {
+                    case DOWNLOAD_MESSAGE_CODE:
+                        progressBar.setProgress((Integer) msg.obj);
+                        break;
+                    case DOWNLOAD_MESSAGE_FAIL_CODE:
+
+                }
+            }
+        };
     }
 
     private void download(String appurl) {
@@ -61,6 +90,10 @@ public class DownloadAvtivity extends Activity{
             String fileName = downloadFolderName + "imooc.apk";
             File apkFile = new File(fileName);
 
+            if (apkFile.exists()) {
+                apkFile.delete();
+            }
+
             int downloadSize = 0;
             byte[] bytes = new byte[1024];
 
@@ -75,14 +108,25 @@ public class DownloadAvtivity extends Activity{
                  */
                 Message message = Message.obtain();
                 message.obj = downloadSize * 100 / contentLength;
-                message.what = 1001;
+                message.what = DOWNLOAD_MESSAGE_CODE;
+                mhandler.sendMessage(message);
+
             }
+            inputStream.close();
+            outputStream.close();
 
         } catch (MalformedURLException e) {
+            notifyDownloadFailed();
             e.printStackTrace();
         } catch (IOException e) {
+            notifyDownloadFailed();
             e.printStackTrace();
         }
+    }
+    private void notifyDownloadFailed() {
+        Message message = Message.obtain();
+        message.what = DOWNLOAD_MESSAGE_FAIL_CODE;
+        mhandler.sendMessage(message);
     }
 }
 
