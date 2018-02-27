@@ -1,15 +1,32 @@
 apply plugin: 'com.android.application'
 
+<<<<<<< HEAD
+=======
+apply plugin: 'kotlin-android'
+
+>>>>>>> 3c5a547ab81391ab1ba2ec61978a791100a00c46
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.example.lutian.myapplication"
+=======
+        applicationId "com.example.myapplication"
+>>>>>>> 3c5a547ab81391ab1ba2ec61978a791100a00c46
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+<<<<<<< HEAD
+=======
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+>>>>>>> 3c5a547ab81391ab1ba2ec61978a791100a00c46
     }
     buildTypes {
         release {
@@ -17,6 +34,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+<<<<<<< HEAD
+=======
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+>>>>>>> 3c5a547ab81391ab1ba2ec61978a791100a00c46
 }
 
 dependencies {
@@ -24,7 +49,14 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
     testCompile 'junit:junit:4.12'
+=======
+    compile"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+>>>>>>> 3c5a547ab81391ab1ba2ec61978a791100a00c46
 }

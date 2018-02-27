@@ -1,0 +1,4 @@
+#Fri May 19 14:24:40 CST 2017
+base.0=I\:\\github\\Androidmac\\NotificationChannelsKotlin\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+renamed.0=classes.dex
+file.0=I\:\\github\\Androidmac\\NotificationChannelsKotlin\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\5\\classes.dex

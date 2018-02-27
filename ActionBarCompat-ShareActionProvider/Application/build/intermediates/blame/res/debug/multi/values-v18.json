@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "I:\\github\\Androidmac\\ActionBarCompat-ShareActionProvider\\Application\\build\\intermediates\\res\\merged\\debug\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\Tian Lu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\ebe30a34844c26450374daf181fd246c\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    }
+]

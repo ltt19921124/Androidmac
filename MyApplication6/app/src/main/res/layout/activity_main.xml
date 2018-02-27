@@ -5,9 +5,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context="com.example.lutian.myapplication.MainActivity">
 
     <TextView
+=======
+    tools:context="com.example.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/sample_text"
+>>>>>>> 3c5a547ab81391ab1ba2ec61978a791100a00c46
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"

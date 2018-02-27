@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.lutian.myapplication" >
+=======
+    package="com.example.myapplication">
+>>>>>>> 3c5a547ab81391ab1ba2ec61978a791100a00c46
 
     <application
         android:allowBackup="true"
@@ -8,8 +12,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme" >
         <activity android:name=".MainActivity" >
+=======
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+>>>>>>> 3c5a547ab81391ab1ba2ec61978a791100a00c46
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

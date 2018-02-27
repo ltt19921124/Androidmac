@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=I:\github\Androidmac\NotificationChannels\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar
+FILE_HASH=191c1bd9883394c0ced6c1791d3bd2cf491c5b3f
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

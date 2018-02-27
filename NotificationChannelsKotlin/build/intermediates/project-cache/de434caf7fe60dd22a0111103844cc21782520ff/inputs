@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=I:\github\Androidmac\NotificationChannelsKotlin\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar
+FILE_HASH=30f2742b6aba04619cc5a174d98e3074a58ed46e
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true
