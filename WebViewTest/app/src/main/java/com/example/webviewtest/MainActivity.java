@@ -10,11 +10,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        WebView webview = (WebView) findViewById(R.id.web_view);
+        WebView webview = findViewById(R.id.web_view);
         webview.getSettings().setJavaScriptEnabled(true);
         webview.setWebChromeClient(new WebChromeClient());
         webview.loadUrl("http://www.baidu.com");
+
     }
 }
