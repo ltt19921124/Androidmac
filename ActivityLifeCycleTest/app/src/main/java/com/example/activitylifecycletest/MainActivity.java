@@ -14,10 +14,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(TAG,"onCreate");
         setContentView(R.layout.activity_main);
 
-        Button startNormalActivity = (Button) findViewById(R.id.start_normal_activity);
-        Button startDialogActivity = findViewById(R.id.start_dialog_activity);
+        Button startNormalActivity = findViewById(R.id.start_normal_activity);
+        if (savedInstanceState != null) {
+            String tempData = savedInstanceState.getString("data_key");
+            Log.d(TAG,tempData);
+        }
         startNormalActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button startDialogActivity = findViewById(R.id.start_dialog_activity);
         startDialogActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

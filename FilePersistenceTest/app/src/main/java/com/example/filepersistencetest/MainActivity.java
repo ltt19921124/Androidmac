@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        edit = (EditText) findViewById(R.id.edit);
+        edit = findViewById(R.id.edit);
         String inputText = load();
         if (!TextUtils.isEmpty(inputText)){
             edit.setText(inputText);

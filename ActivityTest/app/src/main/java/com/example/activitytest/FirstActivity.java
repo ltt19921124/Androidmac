@@ -19,7 +19,7 @@ public class FirstActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         Log.d("FirstActivity","Task id is" + getTaskId());
         setContentView(R.layout.first_layout);
-        Button button1 = (Button) findViewById(R.id.button_1);
+        Button button1 = findViewById(R.id.button_1);
         button1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

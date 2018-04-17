@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         initFruits();
         FruitAdapter adapter = new FruitAdapter(MainActivity.this,
                 R.layout.fruit_item,fruitList);
-        ListView listView = (ListView) findViewById(R.id.list_view);
+        ListView listView = findViewById(R.id.list_view);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
