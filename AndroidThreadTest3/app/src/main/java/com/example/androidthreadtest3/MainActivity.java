@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        text = (TextView) findViewById(R.id.text);
-        Button changeText = (Button) findViewById(R.id.change_text);
+        text = findViewById(R.id.text);
+        Button changeText = findViewById(R.id.change_text);
         changeText.setOnClickListener(this);
     }
 

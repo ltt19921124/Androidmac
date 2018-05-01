@@ -22,7 +22,7 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter android:priority="100">
-                <action android:name="com.example.lutian.broadcasttest.MY_BROADCAST"/>
+                <action android:name="com.example.broadcasttest.MY_BROADCAST"/>
             </intent-filter>
         </receiver>
     </application>

@@ -1,7 +1,6 @@
 package com.example.lutian.broadcastbestpractice;
 
 import android.app.Activity;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,6 +23,4 @@ public class ActivityCollector {
             }
         }
     }
-
-
 }

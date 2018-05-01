@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             mDownloaderBinder = (MyService.DownloaderBinder) service;
             mDownloaderBinder.startDownload();
             mDownloaderBinder.getProgress();
-
         }
 
         @Override

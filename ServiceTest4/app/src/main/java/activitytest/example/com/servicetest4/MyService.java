@@ -6,8 +6,8 @@ import android.app.Service;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.os.Binder;
-import android.support.v4.app.NotificationCompat;
 import android.os.IBinder;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 public class MyService extends Service {
@@ -43,9 +43,9 @@ public class MyService extends Service {
         Log.d("MyService","onCreate executed");
         Intent intent = new Intent(this,MainActivity.class);
         PendingIntent pi = PendingIntent.getActivity(this,0,intent,0);
-        Notification notification = new NotificationCompat.Builder(this)
-                .setContentTitle("This is content title")
-                .setContentText("This is content text")
+        Notification notification = new NotificationCompat.Builder(this,"default")
+                .setContentTitle("this is")
+                .setContentText("this is text")
                 .setWhen(System.currentTimeMillis())
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setLargeIcon(BitmapFactory.decodeResource(getResources(),
